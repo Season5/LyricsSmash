@@ -35,7 +35,21 @@
             android:label="@string/title_activity_songz2"
             android:theme="@style/FullscreenTheme" />
         <activity android:name=".Songz3" />
-        <activity android:name=".Dawa"></activity>
+        <activity android:name=".Dawa" />
+        <activity android:name=".Daktari" />
+        <activity android:name=".Furahia" />
+        <activity android:name=".Ivo" />
+        <activity android:name=".OnTop" />
+        <activity android:name=".Mama" />
+        <activity android:name=".Smile" />
+        <activity android:name=".Hosanna" />
+        <activity android:name=".Today" />
+        <activity android:name=".Dead" />
+        <activity android:name=".Empire" />
+        <activity android:name=".Song" />
+        <activity android:name=".Run" />
+        <activity android:name=".Single" />
+        <activity android:name=".Left"></activity>
     </application>
 
 </manifest>
