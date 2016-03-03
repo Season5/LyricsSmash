@@ -25,21 +25,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".Int" />
-        <activity android:name=".Songs1" />
-        <activity android:name=".Songs2" />
-        <activity android:name=".Songs3" />
-        <activity android:name=".Songz1" />
+        <activity android:name=".PageBahati" />
+        <activity android:name=".PageBunny" />
+        <activity android:name=".PageEsty" />
+        <activity android:name=".PageBey" />
         <activity
-            android:name=".Songz2"
+            android:name=".PageJay"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_songz2"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".Songz3" />
+        <activity android:name=".PageKirk" />
         <activity android:name=".Dawa" />
         <activity android:name=".Daktari" />
         <activity android:name=".Furahia" />
         <activity android:name=".Ivo" />
-        <activity android:name=".OnTop" />
         <activity android:name=".Mama" />
         <activity android:name=".Smile" />
         <activity android:name=".Hosanna" />
@@ -49,7 +48,8 @@
         <activity android:name=".Song" />
         <activity android:name=".Run" />
         <activity android:name=".Single" />
-        <activity android:name=".Left"></activity>
+        <activity android:name=".Left" />
+        <activity android:name=".Lover"></activity>
     </application>
 
 </manifest>

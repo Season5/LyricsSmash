@@ -8,6 +8,6 @@ public class Ivo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ivo);
+        setContentView(R.layout.machozi);
     }
 }

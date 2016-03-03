@@ -3,7 +3,7 @@ package com.scurrae.chris.lyricssmash;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Songz3 extends AppCompatActivity {
+public class PageKirk extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

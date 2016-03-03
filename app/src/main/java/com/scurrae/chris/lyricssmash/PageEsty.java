@@ -3,7 +3,7 @@ package com.scurrae.chris.lyricssmash;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Songs3 extends AppCompatActivity {
+public class PageEsty extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

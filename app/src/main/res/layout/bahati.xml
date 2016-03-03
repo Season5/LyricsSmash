@@ -3,24 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.scurrae.chris.lyricssmash.Songs1"
+    tools:context=".PageBahati"
     android:background="@color/yellow">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Octopizzo"
+        android:text="Bahati"
         android:id="@+id/textView8"
         android:textSize="50dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="52dp"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true" />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ivo ivo ivo"
+        android:text="Machozi"
         android:id="@+id/radioButton"
         android:layout_below="@+id/textView8"
         android:layout_alignLeft="@+id/textView8"
@@ -32,14 +32,14 @@
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="On Top"
+        android:text="Lover"
         android:id="@+id/radioButton2"
+        android:layout_marginTop="39dp"
+        android:checked="false"
+        android:textSize="40dp"
         android:layout_below="@+id/radioButton"
         android:layout_alignLeft="@+id/radioButton"
-        android:layout_alignStart="@+id/radioButton"
-        android:layout_marginTop="50dp"
-        android:checked="false"
-        android:textSize="40dp" />
+        android:layout_alignStart="@+id/radioButton" />
 
     <RadioButton
         android:layout_width="wrap_content"
