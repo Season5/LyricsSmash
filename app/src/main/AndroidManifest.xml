@@ -38,7 +38,7 @@
         <activity android:name=".Dawa" />
         <activity android:name=".Daktari" />
         <activity android:name=".Furahia" />
-        <activity android:name=".Ivo" />
+        <activity android:name=".Macho" />
         <activity android:name=".Mama" />
         <activity android:name=".Smile" />
         <activity android:name=".Hosanna" />
