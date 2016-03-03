@@ -56,11 +56,11 @@ public class PageBey extends AppCompatActivity {
                 public void onClick(View v) {
                     switch (v.getId()) {
                         case R.id.beymain:
-                            Intent i = new Intent(getBaseContext(), Int.class);
+                            Intent i = new Intent(getBaseContext(), Main.class);
                             startActivity(i);
                             break;
                         case R.id.beyprev:
-                            Intent j = new Intent(getBaseContext(), Local.class);
+                            Intent j = new Intent(getBaseContext(), Int.class);
                             startActivity(j);
                             break;
                         default:

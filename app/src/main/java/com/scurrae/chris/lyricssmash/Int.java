@@ -29,15 +29,15 @@ public class Int extends AppCompatActivity {
                 public void onClick(View v) {
                     switch (v.getId()) {
                         case R.id.itrbey:
-                            Intent i = new Intent(getBaseContext(), PageEsty.class);
+                            Intent i = new Intent(getBaseContext(), PageBey.class);
                             startActivity(i);
                             break;
                         case R.id.itrjay:
-                            Intent j = new Intent(getBaseContext(), PageBahati.class);
+                            Intent j = new Intent(getBaseContext(), PageJay.class);
                             startActivity(j);
                             break;
                         case R.id.itrkirk:
-                            Intent k = new Intent(getBaseContext(), PageBunny.class);
+                            Intent k = new Intent(getBaseContext(), PageKirk.class);
                             startActivity(k);
                             break;
                         default:

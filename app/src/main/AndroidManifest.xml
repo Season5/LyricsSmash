@@ -24,16 +24,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Int" />
+        <activity
+            android:name=".Int">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.scurrae.chris.lyricssmash.Int"/>
+        </activity>
+        <activity android:name=".Local"/>
         <activity android:name=".PageBahati" />
         <activity android:name=".PageBunny" />
         <activity android:name=".PageEsty" />
         <activity android:name=".PageBey" />
-        <activity
-            android:name=".PageJay"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_songz2"
-            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".PageJay"/>
         <activity android:name=".PageKirk" />
         <activity android:name=".Dawa" />
         <activity android:name=".Daktari" />
