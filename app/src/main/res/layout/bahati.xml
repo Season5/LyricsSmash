@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Machozi"
-        android:id="@+id/radioButton"
+        android:id="@+id/bahamacho"
         android:layout_below="@+id/textView8"
         android:layout_alignLeft="@+id/textView8"
         android:layout_alignStart="@+id/textView8"
@@ -33,22 +33,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lover"
-        android:id="@+id/radioButton2"
+        android:id="@+id/bahalove"
         android:layout_marginTop="39dp"
         android:checked="false"
         android:textSize="40dp"
-        android:layout_below="@+id/radioButton"
-        android:layout_alignLeft="@+id/radioButton"
-        android:layout_alignStart="@+id/radioButton" />
+        android:layout_below="@+id/bahamacho"
+        android:layout_alignLeft="@+id/bahamacho"
+        android:layout_alignStart="@+id/bahamacho" />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mama"
-        android:id="@+id/radioButton3"
-        android:layout_below="@+id/radioButton2"
-        android:layout_alignLeft="@+id/radioButton2"
-        android:layout_alignStart="@+id/radioButton2"
+        android:id="@+id/bahamum"
+        android:layout_below="@+id/bahalove"
+        android:layout_alignLeft="@+id/bahalove"
+        android:layout_alignStart="@+id/bahalove"
         android:layout_marginTop="54dp"
         android:textSize="40dp" />
 
@@ -65,7 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="prev"
-            android:id="@+id/button3"
+            android:id="@+id/bahaprev"
             android:background="#b0000000"
             android:textColor="@color/yellow"
             android:layout_marginLeft="10dp"/>
@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="main"
-            android:id="@+id/button4"
+            android:id="@+id/bahamain"
             android:background="#b0000000"
             android:layout_marginLeft="75dp"
             android:layout_marginRight="75dp"
