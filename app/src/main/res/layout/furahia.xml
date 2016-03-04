@@ -21,7 +21,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
+                android:text="Daktari wa moyo nipima pime, Daktari wa mwili wangu touch me
+Daktari wa moyo nipima pime, Daktari wa mwili wangu touch me
+Nimeskia sifa zako daktari,Vile Sara na Hana uliwapa wana
+Ukimgusa tasa anapata mapacha, Oh Daktrari, oh Daktari
+Oh daktari, daktari touch me!
+Daktari wa moyo nipima pime, Daktari wa mwili wangu touch me
+Daktari wa moyo nipima pime, Daktari wa mwili wangu touch me
+Kuna vile unaelewa unyonge wangu, au uchungu wangu na haja zangu
+Hata na akili zangu dhamiri yangu, Tafadhali daktari
+Oh daktari,Eh daktari, daktari touch me!
+Daktari wa moyo nipima pime, Daktari wa mwili wangu touch me
+Daktari wa moyo nipima pime, Daktari wa mwili wangu touch me
+Wazee wamama na vijana wapime oh, hata watoto pia uwapime baba
+Ukipata magonjwa, uwatibu daddy, moyo mwili na moyo wewe ni daktari
+Eh Daktari, daktari, oh daktari, daktari
+Daktari wa moyo nipima pime, Daktari wa mwili wangu touch me
+Daktari wa moyo nipima pime, Daktari wa mwili wangu touch me
+"
                 android:id="@+id/textView12"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"

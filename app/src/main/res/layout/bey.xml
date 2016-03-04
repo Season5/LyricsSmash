@@ -5,6 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".PageBahati"
     android:background="@color/yellow">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
     <TextView
         android:layout_width="wrap_content"
@@ -92,4 +98,6 @@
             android:background="#b0000000"
             android:textColor="@color/yellow"/>
     </LinearLayout>
+            </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
