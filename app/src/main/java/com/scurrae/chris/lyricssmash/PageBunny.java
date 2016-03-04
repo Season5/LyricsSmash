@@ -29,15 +29,15 @@ public class PageBunny extends AppCompatActivity {
                 public void onClick(View v) {
                     switch (v.getId()) {
                         case R.id.bunnyadisia:
-                            Intent i = new Intent(getBaseContext(), Adisia.class);
+                            Intent i = new Intent(getBaseContext(), Left.class);
                             startActivity(i);
                             break;
                         case R.id.bunnyligi:
-                            Intent j = new Intent(getBaseContext(), Ligi.class);
+                            Intent j = new Intent(getBaseContext(), Run.class);
                             startActivity(j);
                             break;
                         case R.id.bunnystars:
-                            Intent k = new Intent(getBaseContext(), Stars.class);
+                            Intent k = new Intent(getBaseContext(), Single.class);
                             startActivity(k);
                             break;
                         default:
