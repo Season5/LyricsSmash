@@ -8,15 +8,26 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.scurrae.chris.lyricssmash.Hosanna"
-    android:background="@color/yellow">
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="The angels bow down at the thought of You The darkness gives way to the light for You The price that you paid gives us life brand New Hosanna forever we worship You Hosanna forever we worship You [2x]  For you are the joy that my soul longs for The lamb that was slain for my sins and the One I adore King of kings, Ruler of everything Hosanna forever we worship You Hosanna forever we worship You [2x]  For your patience and kindness And favor and mercy And honor and glory Because you are worthy We can&apos;t live without You We can&apos;t breathe without You We can&apos;t sing without You Hosanna Hosanna  No greater love in this world but You No one can compare to the things You do Wherever You go I will follow You Hosanna forever we worship You Hosanna forever we worship You  Someday every tongue shall confess Your name  This house made of clay soon shall pass away Whatever the test You will bring us through  Hosanna forever we worship You [4x]  [Vamp] Hosanna forever Hosanna forever and ever and ever Hosanna  We praise You Hosanna forever and ever and ever  Hosanna forever Hosanna forever and ever and ever Hosanna forever Hosanna forever and ever and ever and ever and ever and ever and ever Hosanna forever  [ADLIB (leader) and repeat (choir)] "
+                android:id="@+id/textView23"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/yellow" />
         </RelativeLayout>
     </ScrollView>
+
+
 
 </RelativeLayout>

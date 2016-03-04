@@ -8,15 +8,28 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Macho"
-    android:background="@color/yellow">
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Ooh Bahati Bahati tena Maachozi machozi ii, machozi mamaye Machozi skiza papaye Vidonda vichungu na fikra ona vile niliumia Machozi machungu nakuta mbona hakuna vile ningeficha *2 Maisha yangu ya usali, kasoro mali Wapi wangu waniokoe, napoteza mzazi uchungu wa mwana, Mbona mola uniondoe *2 Nilikosa hata moyo kuchonga moyoni, niliumia sana Maskini kusema hawachoki kuchonga nililia msee iaa Nilijawa machozi, mbona mimi Maswali kwa mola, mbona mimi Nilijawa machozi, mbona mimi Mbona dunia uchungu, mbona mimi oooi oooi oooi oooi oooi oooi oooi oooi Nafanya napata gharama, kuwa inakera Bidii nikaweka nikaangua pa tupu, niliota kupenya Mziki ilifanya sana napata gharama, kuwa inakera Bidii nikaweka nikaangua pa tupu, niliota kupenya Ilikuwa uchungu madungu zangu, Nilijawa naumia aai ilikuwa machozi sina hata pozi, ila tumbo inalia aai *2 Nilijawa machozi, mbona mimi Maswali kuwa mola, mbona mimi Nilijawa machozi, mbona mimi Mbona dunia uchungu, mbona mimi oooi oooi oooi oooi oooi oooi oooi oooi Naye ukaniweka chini, niende wapi mwenzio Niliangaika kwenda mjini, mashambani hivo hivo *2 Ukawamu kunionyesha mapenzi, hapo siku ya kwanza Maulana kwangu ukakuwa mpenzi, ndio ukaniacha *2 Nilikosa hata moyoni, niliumia sana Maskini kusema hawachoki kuchonga, nililia msee aai Nilijawa machozi, mbona Maswali kwa mola, mbona Nilijawa machozi, mbona mimi Mbona dunia uchunga, mbona mimi mbona mimi, mbona mimi Si amini ni mimi leo, Maulana hayali mbivu oooh Si amini ni mimi leo, Rabuka hafungi sikio *2"
+                android:id="@+id/textView11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/yellow"
+                android:layout_alignParentTop="true" />
+
 
         </RelativeLayout>
     </ScrollView>
+
 
 </RelativeLayout>

@@ -8,15 +8,27 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.scurrae.chris.lyricssmash.Dead"
-    android:background="@color/yellow">
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Yea, yea I&apos;m out that Brooklyn, now I&apos;m down in Tribeca Right next to DeNiro, but I&apos;ll be hood forever I&apos;m the new Sinatra, and, since I made it here I can make it anywhere, yea, they love me everywhere I used to cop in Harlem, All of my Dominicano&apos;s right there up on Broadway, Pull me back to that McDonald&apos;s, took it to my stashbox, 560 State St. Catch me in the kitchen like a Simmons wippin&apos; pastry&apos;s Cruisin&apos; down 8th St., off white Lexus Drivin&apos; so slow, but BK is from Texas Me, I&apos;m out that Bed-Stuy, home of that boy Biggie Now I live on Billboard and I brought my boys with me Say whattup to Ty-Ty, still sippin&apos; Mai Tai&apos;s Sittin&apos; courtside, Knicks and Nets give me high five Nigga I be Spike&apos;d out, I could trip a referee Tell by my attitude that I&apos;m most definitely from1 In New York, Concrete jungle where dreams are made of There&apos;s nothin&apos; you can&apos;t do Now you&apos;re in New York These streets will make you feel brand new Big lights will inspire you Let&apos;s hear it for New York, New York, New York2 Catch me at the X with OG at a Yankee game Shit, I made the Yankee hat more famous then a Yankee can You should know I bleed blue, but I ain&apos;t a Crip though But I got a gang of niggas walkin&apos; with my clique though Welcome to the melting pot, corners where we sellin&apos; rock Afrika Bambataa shit, home of the hip-hop Yellow cab, gypsy cab, dollar cab, holla back For foreigners it ain&apos;t for, they act like they forgot how to act Eight million stories, out there in it naked City is a pity, half of y&apos;all won&apos;t make it Me, I got a plug, Special Ed &quot;I Got It Made&quot; If Jesus payin&apos; Lebron, I&apos;m payin&apos; Dwayne Wade Three dice cee-lo, three card monte Labor Day Parade, rest in peace Bob Marley Statue of Liberty, long live the World Trade Long live the King yo, I&apos;m from the Empire St. that&apos;s In New York, Concrete jungle where dreams are made of There&apos;s nothin&apos; you can&apos;t do Now you&apos;re in New York These streets will make you feel brand new Big lights will inspire you Let&apos;s hear it for New York, New York, New York1 Lights is blinding, girls need blinders So they can step out of bounds quick, the sidelines is Lined with casualties, who sip to life casually Then gradually become worse, don&apos;t bite the apple, Eve Caught up in the in-crowd, now you&apos;re in style End of the winter gets cold, en vogue, with your skin out City of sin, it&apos;s a pity on the whim Good girls gone bad, the city&apos;s filled with them Mommy took a bus trip, now she got her bust out Everybody ride her, just like a bus route Hail Mary to the city, you&apos;re a virgin And Jesus can&apos;t save you, life starts when the church end Came here for school, graduated to the high life Ball players, rap stars, addicted to the limelight MDMA got you feelin&apos; like a champion The city never sleeps, better slip you an Ambien In New York, Concrete jungle where dreams are made of There&apos;s nothin&apos; you can&apos;t do Now you&apos;re in New York These streets will make you feel brand new Big lights will inspire you Let&apos;s hear it for New York, New York, New York One hand in the air for the big city Street lights, big dreams, all lookin&apos; pretty No place in the world that could compare Put your lighters in the air everybody say yeah, yeah, Yea, yea In New York, Concrete jungle where dreams are made of There&apos;s nothin&apos; you can&apos;t do Now you&apos;re in New York These streets will make you feel brand new Big lights will inspire you Let&apos;s hear it for New York, New York, New York"
+                android:id="@+id/textView19"
+                android:layout_alignRight="@+id/scrollView6"
+                android:layout_alignEnd="@+id/scrollView6"
+                android:textColor="@color/yellow" />
+
 
         </RelativeLayout>
     </ScrollView>
+
 
 </RelativeLayout>

@@ -8,15 +8,28 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.scurrae.chris.lyricssmash.Today"
-    android:background="@color/yellow">
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView8">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Hey Hey Hey Hey...  Today, I&apos;m hungry and I&apos;m ready for change I run too far to still be the same See who I was I give him away Today Today, No longer bound by what people say I know that I will make mistakes I fall but I refuse to stay Today  I&apos;ve been waiting all my life to get to the door And now it&apos;s time to help someone see they&apos;re alive for so much more  [Chorus:] (Today we goin&apos;) Help somebody Heal somebody (We goin&apos;) Free somebody (Yeah) Forgive somebody (Today we goin&apos;) Touch somebody Love somebody (We goin&apos;) Catch somebody Let go of somebody  Today, I see the hurt upon your face Thinking how much more of this can I take In a minute I&apos;m about to break Today See the pain, has purpose so don&apos;t throw it away There&apos;s a harvest if ya only wait Don&apos;t walk out now I need you to stay Today  Though you&apos;ve never felt winds blow like this before But if what you see is all you see you will miss there&apos;s so much more  [Chorus:] (Today we goin&apos;) Help somebody (We goin&apos;) Heal somebody Free somebody Forgive somebody (Today we goin&apos;) Touch somebody Love somebody Catch somebody Let go of somebody Today (We goin&apos; live our lives) Today (We can&apos;t waste no more time) Today (We not looking back no more) Today Today (Yeah) (Let, let, let, let&apos;s go)  Hey Hey Hey Hey... (Louder ya&apos;ll) Hey Hey Hey Hey... (Just a little bit louder ya&apos;ll)  Today yeah... Hey Hey Hey Hey... Today yeah...  Today, I think I feel the weather change Think I felt my last drop of rain I believe I&apos;m gonna be ok Today See today, (Today) I&apos;m still here because of my faith (my faith) I believe that Jesus still is the way I said His name cauz I &apos;m not afraid Today  [Chorus:] Help somebody Heal somebody Free somebody Forgive somebody (We gon&apos;) Touch somebody Love somebody (We gon&apos;) Catch somebody Let go of somebody [x2]  Hey Hey Hey Hey... Hey Hey Hey Hey... Today...  Hey Hey Hey Hey... Humm, hummm, humm..."
+                android:id="@+id/textView21"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/yellow"
+                android:layout_alignParentTop="true" />
 
             </RelativeLayout>
     </ScrollView>
+
+
 
 </RelativeLayout>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -10,4 +11,15 @@
 
         </RelativeLayout>
     </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Intro(Rabbit): Yeah, Kaka Empire, Rabbit, Unajua Industry Ya Kenya Imetoka So Far Yaani Manze, So Inamaanisha Tumetoka Ligi Ndogo,Tukaenda Ligi Soo, Na Big Up To Wasanii Wote Manze,Wana do Beautiful Music, Ndio Maana, Ndio Maana, Ilibidi, REMIX!!  Verse 1(Jay A): O.k I&apos;m In The Major League, So Shout Out  To All Of My G&apos;s How Could They Leave Me Out At This Remix, When I&apos;m Stackin Most Of That Cheese, I&apos;m Young &amp; I&apos;m Getting Paid, Competition Just Being Sprayed, I Have Em All In The Body Bag, Somebody Please Go Get A Spade &amp; I&apos;m Coming Straight From The Dirt, Take A Look At Me Now I&apos;m Swagged Out, They Said I Wouldnt Get Nowhere Just In 6 Months I Was Brunched Out, Oh I Think They Like Me And I Aint Even Been To The South, They Tryna Rap Like Me But Aint Coming Out Of They Mouth, F Who Has A Problem Aint Got No Time To &amp; Shout Out To All The Fans Who Got My Back I Applaud Them, Winning Be The Subject &amp; Loosing Aint A Option And To Make It This Far,You Gotta Hustle No Option...  HOOK(Rabbit): Tuko Ligi(Soo), Wako Ligi Ndogo, So &amp; So Wako Ligi Ndogo, Tuko Ligi(Soo), Wako Ligi Ndogo, So Tunaishi Like There&apos;s No Tommorow, {x2} Verse 2(Mejja): Definition Yangu Ya Ligi Soo, Sii Ule Rabbit Huwa Hana Doe, Kwa Yule Msee Ako Huko Chini, Yule Msee Ana Hustle Unakulia Jasho Yako Hauombi, Hio Ni Ligi Soo, Lazima Uchangamke Ndio Uingie Kwa Hii Ukoo, Haha, So Kaa We Ni Mlazy Jo Unabore, Ukipewa Kazi, Fanya Kazi, Chapa Kazi, Dont Aim The Stars, Ah Ah, Aim The Galaxy, Ligi Soo Okwonkwo, Niko, Haha, Carlifonia Bado Tuko, Tuko Pamoja Ka Mkee Nyumbani Na Mwiko, Niliingia Ligi Soo,Nikatoka Na Yoo Kijiko, Okwonkwo, By Den,  HOOK:  Verse 3(Chiwawa): Tangu Kitambo Niliwashow, Niko Mbele Sana Buda, Kwenye Kipaza Na Maflow, When They Said I Couldnt Do That, Nime Change Game For The Better, Hata Kaa Ime Take Muda, Ndio Nifike Kwenye Nataka, Siwezi Give Up Kuwa Looser, Niko Mbioni, Ligi Soo Kaa Man U Ha, Nilijifunzia Kwa Street, Ndio Kwa Maana I&apos;m Such A Nuisance, 2013 Bado Flow Inakaa Brand New, Sa Na Blow Of Steam, Vitu Moto Huwezi Guza, Kwenye Kipaza Ndio Natawala, Ndio Na Jifunzia Kila Saa, Vile Nawaza Ni Kujikaza Ndio Mwishowe Nifike Far, Na Nikifika Sitaringa, Nita Buy Ndai Kaa Mariga, Nita Make Sure Na Watinga Ma Haters Wote Wajue Niko Ligi...  HOOK:  Verse 4(Madtraxx): Its Madtraxx, Niko Ligi (Soo), Yaani NFL, Yaani Gor Mahia Sofapaka KPL, Haunifiki Bro, I Keep It One Hundred Niko Sawa Loko Loko, But Napenda Summer Bunnies, Kila Mwaka Madtraxx I&apos;m Back, Tangu Siku Za Electric Ave, Tangu Ni made Chuo, Stanz Anifundishe Kuscratch, Ligi Bro Ni Soo Infact Niko Ligi Thao, Uliza Kaka Sungura, Sibongi Ka Si Brown, Na Sigusi Ka Si Clean, Na Sinusi Ka Si New, Man I&apos;m Looking At My Team, Boss I&apos;m Not Looking At You, Mi Nikitafuta Cream, We Unabaki Tu Manyu, Dem Wako Anafundishwa Things Anaulize Baby Can You?...  HOOK:  Verse 5(Rabbit): Ligi Bado Ni (Soo), Na Ukiniita(Show), Mi Siwezi(Show), Kaa Ni Chini Ya Thao(Soo), Juu Huyu Boy Ana (Flow), Zaidi Ya Pinky Vicky, Fatso Ki-Mistari Siezi Ingia Slim Possible, Adisia Swahili Pia, Meet The New Odijo, Hauwezi Ni Kopa Saa Ile Soo Yangu Haitoshi, Na Niki Die Wata Come Matanga(Tutapledge Ku Buy Coffin), Fala, Hao Wako Ligi Ndogo, Na Ma Hustler Wote(Yeah), Wako Ligi Soo, Niko Color Blind But Napenda Dem Ana Color Co-Ordinate, Awe Mathematical Shape, Huyo Ndio Naeza Peleka Date, Uki Succed Isiende Kwa Kichwa, Uki Fail Isiende Kwa Roho Juu...  HOOK:  Verse 6(Petra): Smokin dat montecristo,habana/ wit the crystal/ came out wit a hot rap bang! Like a pistol/ i kno its a bit dope hangin out wit me but now u gotta get back to crushin veggies at the bistro/ am sippin on henessey lookin at y&apos;all/ its sad that u gotta be sittin below/ getn rid of the bitches n tha hoes n dem niggas yeh ima get rid uh yuh all/ trustin nobody&apos; is the path that i chose/ stackin the wealth n rejectin the foes/u happy outside but inside uh yo soul u hopin n wishn on seeing me"
+        android:id="@+id/textView7"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/yellow" />
 </RelativeLayout>

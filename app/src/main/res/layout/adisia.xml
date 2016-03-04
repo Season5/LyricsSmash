@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:text="/home/chris/AdroidStudioProjects/LyricsSmash/LyricsSmash Lyrics/Local Artists/Rabbit/Lyrics/adisia.doc"
+        android:id="@+id/textView5">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="CHORUS LYRICS: Adisia (x2) Hizo makofi za kilo Adisia, Adisia(x2) Waiter unakaa kaa aje Adisia, A-a-a-a-a Adisia (x3) Hizo makofi za kilo Adisia VERSE 1 LYRICS: Niliwaachia wa-run Nai, na Daresalaam, Mi na-fly over sky, nikepewa njugu karanga, Na ma-hostess wanadai, we love your album, Kalongo ni ya mama pima, na hype niliachia Williams. Nimejipin kama nappy, sling kama babby, Hata waki-buy over-over, hawaezi copy, Naskia kuna tumbili zinacheka na rasa national Park, Saa hizo ma-groupie wananipapasa wakinipikia lunch. Kabla sijatoa ngoma, ma-DJ wanaipea promo, Wasanii wa-slim wanafura,Utadhani ni wanono. Wananimwagia chumvi, ndio ni-slow kama konokono, Me ni sunguch, mi nitamake steps nono-nono. Bado me m-tight kama budget ya msee amesota, na-dunda kama msee mfuko yake imetoboka. Wonder-boy, mjanjess, paraphernalia. Hizo keybpoard tamu, lakini, Kanyeria CHORUS LYRICS: Adisia (x2) Hizo makofi za kilo Adisia, Adisia(x2) Waiter unakaa kaa aje Adisia, A-a-a-a-a Adisia (x3) Hizo makofi za kilo Adisia VERSE 2 LYRICS: Nilikua na mistari nadai kusieze kama Julio. Hata kama talk is cheap, walidai ganji za studio. Laser lights kwa club utadhani sniper wanasaka killers, Na hawa madem wameni-kaba utadhani ni game ya mpira. Wewe ni m-special kama offer, na umeji-bebea virago. So special, nilikuona kwa video ya Mavado. Since sikunywagi (waiter tot ya avocado). Madem bado huni-admire, ndio Size 8 alishika fire. Na wewe kusema Rabbit sio king (una-preach to the choir). Nina shida ya macho, me siwezi kuonea wivu (aje). Hauna mbolea hauna mistari, shake yako haina wolves , Ati skills kali, (ati) ati wa-hot poker, (ati) ati snails zao, huwa zina-swim kwa salt water. (ati) ulimi zao, ndio mahali mistari hudondoka. Ni ma-MC wana-wonder na hit moja, then wao missing Kama MP wangu au C-zars, na Joe Hamisi CHORUS LYRICS: Adisia (x2) Hizo makofi za kilo Adisia, Adisia(x2) Waiter unakaa kaa aje Adisia, A-a-a-a-a Adisia (x3) Hizo makofi za kilo Adisia VERSE 3 LYRICS: Sahii nashugulikia mother anything, ndio akue happy. Come uone jikoni yake, utai-confuse na shelves za Tuskys. Ma-shamba boy na ma-shamba girl, na hata hatuna shamba, Ma-fans nawapa classics, juu walinipa taji. Saa hizo hits zinajifwata, wanadai niko over-fertile, Beenie, big meeting ni suti na tie. Kile na-spit ni sick, lazima wai-tweet pick. Talk of the city, hauezi ni-tooth pick. Na shati haiwezi itwa sweater hata iki-shonwa na uzi nzito, Full stop haimaanishangi, stori imefika mwisho. Utamu wa hustle ni noti, utamu wa plaka ni nj@ti, Na hii respect nili-earn, sikuibuy kwa shop, ati Matata nipe respect, maziwa mbili na lollypop. Maboys wanadoz mchana, ati usiku wako night-shift. Nikitoka hustle wanadai, “oya nice kicks!”, Hebu nione kama zina-fit, alafu hizo maganji Rabbit, CHORUS LYRICS: Adisia (x2) Hizo makofi za kilo Adisia, Adisia(x2) Waiter unakaa kaa aje Adisia, A-a-a-a-a Adisia (x3) Hizo makofi za kilo Adisia "
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/yellow" />
 
         </RelativeLayout>
     </ScrollView>
+
+
 </RelativeLayout>

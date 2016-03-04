@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.scurrae.chris.lyricssmash.Daktari"
-    android:background="@color/yellow">
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,17 +17,21 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:id="@+id/textView12"
-                android:layout_alignParentTop="true"
+                android:text="[Hook: Nas] Presidents to represent me I&apos;m out for presidents to represent me I&apos;m out for dead fuckin&apos; presidents to represent me  [Verse 1: Jay-Z] While others spit that Wonderama shit, me and my conglomerate Shall remain anonymous, caught up in the finest shit Live out my dreams until my heart give out Involved with cream, you know exactly what this shit&apos;s about Fuck y&apos;all mean? Handling since a teen, I dish out Like the point guard off your favorite team, without doubt My life ain&apos;t rosy but I roll with it My mind was fine &apos;til the dough hit it and told me that the Mo&apos; did it And now it&apos;s kosher, shit is so Hasidic I blow a digit on a diamond in a minute but no bitches Watch how I&apos;m walking cause even the thoroughest niggas be narkin&apos; Tryin&apos; to strike a bargain hoping that they might get pardoned Shit I&apos;m involved with got me pins and needles And my cerebral breeds the wickedest evil thoughts that this sport&apos;ll feed you Peep facts, in the game so deep fiends could catch ya Freeze off my knee cap, can y&apos;all believe that? Got the city drinking Cristals, re-up the fee Rappers going broke, tryin&apos; to keep up with me My rise to riches surprised the bitches: think harder You know this nigga, Jay-Z, Shawn Carter G.S. the fuck up, dress the fuck up Watch me shine like a Breitling, begets the fuck up All rhymers forget it like Alzheimer&apos;s Small timers, I said it, I&apos;m addressing all dramas Talk to me  [Hook]  [Verse 2: Jay-Z] So sick of niggas, &quot;I want money like Cosby&quot; (who wouldn&apos;t?) This the kinda talk that make me think you probably ain&apos;t got no puddin&apos; Niggas got them kinda dreams from Jay You in the streets, nigga, make your moves, get your mill Niggas&apos;ll coast in the SL but can&apos;t post bail Niggas&apos;ll roast a L but scared to throw your toast, well I&apos;m here to tell niggas it ain&apos;t all swell There&apos;s heaven, and then there&apos;s hell niggas One day you&apos;re cruising in your 7, next day you&apos;re sweating, forgetting your lies Alibis ain&apos;t matching up, bullshit catching up Hit with the RICO, they repo your vehicle Everything was all good just a week ago &apos;Bout to start bitching ain&apos;t you? Ready to start snitching ain&apos;t you? I&apos;ll forgive your weak ass; hustling just ain&apos;t you Aside from the fast cars, honeys that shake they ass at bars You know you wouldn&apos;t be involved With the underworld dealers, carriers of mac-millers East Coast bodiers, West Coast cap-peelers Little monkey niggas turn gorillas Stopped at the station, filled up on octane And now they not sane and not playing, that goes without saying Slaying day in and day out with money playing, then they play you out Trying to escape my own mind, lurking the enemy Representing infinity with presidencies, you know?  [Bridge x4: Nas] Dead fuckin&apos; presidents to represent me  [Hook]"
+                android:id="@+id/textView17"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/yellow"
+                android:layout_alignParentTop="true" />
 
         </RelativeLayout>
     </ScrollView>
+
+
 
 </RelativeLayout>

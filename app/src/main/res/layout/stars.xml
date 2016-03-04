@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -10,4 +11,15 @@
 
         </RelativeLayout>
     </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Unajua  mi napenda story sana lakini  ka si biz au doh  mi naona tu utembe yaani, unajua Dice Mzeiya, Kaka Sungura,  Rabbit,   hii ni ingine mzeiya  siunajua……. Chorus Kaa si pesa au biashara,  basi tembea  nani! nani tembea Kaa si ganji au mradi,  basi tembea  nani! nani tembea Na na staki kukuona  ah aaah Staki kukuona  Na na staki kukuona  ah aaah Staki kukuona Verse 1 Nimesaka winch wiki yote wakaniita paper chaser Yaani doh, ganji , mkwanja au pesa Staki story ndio nimechill mbele ya keja Udaku ikaletwa, {Dice hajaacha fegi, Oguyo bado ni pedi, Mp wangu ni Yule utembea na ma vedi} Oya! Mambo ya Dice mi uongelea kwa beat, Dome za mtaa pelekea chief, ata kura ifanywe leo Mp wako simpi tick, nani tembea na na staki kukuona Kaa si doh maskio yangu haikaribishi udaku Unabiz ingine?  Tembeza kiatu! Nataka future lavish ndio niweze kujimudu Kwa sasa nakaribisha buda Uhuru, Moi ka inaweza Sana sana ma dolare, Ata P-Unit wanajua Rabbit ni mkare Chorus Kaa si pesa au biashara,  basi tembea  nani! nani tembea Kaa si ganji au mradi,  basi tembea  nani! nani tembea Na na staki kukuona  ah aaah Staki kukuona  Na na staki kukuona  ah aaah Staki kukuona Verse 2  We ni mrembo sana na staki nikuaate Lakini sina time ya love labda tuplakane Ile chapaa ninayo sahii hata hainitoshi Nikikuongeza kwa budget  ntapunguza noti + nikupeleke out  + njumu za kisource + nikuachie za mfuko +  nguo zile posh + taxi za usiku + ile good life of course Tuseme tu ukweli relationship haiwezi Wewe + mimi = madeni So ntakuacha kwa sasa nikatafute peni Ukiinsist tu sana, mami tembea na na staki kukuona Nilikuwa na mpango usiingie box yangu We uliblanda ati ati ulinipenda tangu Hatuwezi kula mapenzi , rent kila mwezi Ati i love you , I love you kaa si? Chorus Kaa si pesa au biashara,  basi tembea  nani! nani tembea Kaa si ganji au mradi,  basi tembea  nani! nani tembea Na na staki kukuona  ah aaah Staki kukuona  Na na staki kukuona  ah aaah Staki kukuona Bridge Na na staki kukuona ah aaah staki kukuona Na na staki kukuona ah aaah staki kukuona... Chorus Kaa si pesa au biashara,  basi tembea  nani! nani tembea Kaa si ganji au mradi,  basi tembea  nani! nani tembea Na na staki kukuona  ah aaah Staki kukuona  Na na staki kukuona  ah aaah Staki kukuona Outro Unajua na hope unaelewa,  si kwa ubaya  lazima kwanza watu wajenge doh, lazima watu wafanye biz  nikishajenga doh, ntakutafuta,  ukweli ntakutafuta! "
+        android:id="@+id/textView10"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/yellow" />
 </RelativeLayout>

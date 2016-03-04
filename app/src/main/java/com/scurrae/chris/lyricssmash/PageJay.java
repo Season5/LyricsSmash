@@ -35,7 +35,7 @@ public class PageJay extends AppCompatActivity {
                 public void onClick(View v) {
                     switch (v.getId()) {
                         case R.id.jaycry:
-                            Intent i = new Intent(getBaseContext(), Cry.class);
+                            Intent i = new Intent(getBaseContext(), Song.class);
                             startActivity(i);
                             break;
                         case R.id.jaydeath:

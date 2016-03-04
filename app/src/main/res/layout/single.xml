@@ -8,15 +8,26 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.scurrae.chris.lyricssmash.Single"
-    android:background="@color/yellow">
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/yellow"
+                android:text="All the single ladies,( all the single ladies) All the single ladies, (all the single ladies) All the single ladies, (all the single ladies) All the single ladies Now put your hands up Up in the club (club), we just broke up (up), I&apos;m doing my own little thing. Decided to dip (dip) and now you wanna trip (trip) &apos;Cause another brother noticed me I&apos;m up on him, he up on me Don&apos;t pay him any attention Just cried my tears, for three good years You can&apos;t get mad at me &apos;Cause if you liked it, then you should have put a ring on it If you liked it, then you shoulda put a ring on it Don&apos;t be mad once you see that he want it &apos;Cause if you liked it, then you shoulda put a ring on it oh oh oh oh oh oh oh oh oh oh oh oh x2 If you liked it, then you should have put a ring on it If you liked it, then you t be mad once you see that he want it Don&apos;t be mad once you see that he want it If you liked it, then you shoulda put a ring on it I got gloss on my lips, a man on my hips Got me tighter in my Dereon jeans Acting up, drink in my cup I can care less what you think I need no permission, did I mention Don&apos;t pay him any attention &apos;Cause you had your turn, and now you gonna learn What it really feels like to miss me &apos;Cause if you liked it, then you should have put a ring on it If you liked it, then you shoulda put a ring on it Don&apos;t be mad once you see that he want it &apos;Cause if you liked it, then you shoulda put a ring on it Oh, oh, oh, oh, oh, oh Don&apos;t treat me to these things of the world I&apos;m not that kind of girl Your love is what I prefer, what I deserve Is a man that makes me then takes me And delivers me to a destiny, to infinity and beyond Pull me into your arms Say I&apos;m the one you want If you don&apos;t, you&apos;ll be alone And like a ghost I&apos;ll be gone All the single ladies,( all the single ladies) All the single ladies, (all the single ladies) All the single ladies, (all the single ladies) All the single ladies Now put your hands up oh, oh, oh, oh, oh, oh &apos;Cause if you liked it, then you should have put a ring on it If you liked it, then you shoulda put a ring on it Don&apos;t be mad once you see that he want it If you liked it, then you shoulda put a ring on it Oh, oh, oh. If you liked it, then you should have put a ring on it If you liked it, then you shoulda put a ring on it Don&apos;t be mad once you see that he want it If you liked it, then you shoulda put a ring on it, oh oh oh" />
 
         </RelativeLayout>
     </ScrollView>
+
+
 
 </RelativeLayout>

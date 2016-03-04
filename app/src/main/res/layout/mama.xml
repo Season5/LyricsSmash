@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.scurrae.chris.lyricssmash.Mama"
-    android:background="@color/yellow">
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -16,7 +16,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Mwanabuja Wee  Mi Naimbia Mama, Mi Nasifu Mama, Mama  Chorus  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  Verse 1  Nimetu dakika Keti Chini Nikuambie  Nachukua hii fursa Mama Wacha Nikuimbie  Nimetu dakika Keti Chini Nikuambie  Nachukua hii fursa Na Dunia Isikie  Miezi Tisa Ndani Yako Kanibeba Uchovu  Na Miaka Tisa Kando Yako Ukinitoa Uovu  (Mama)  Miezi Tisa Ndani Yako Kanibeba Uchovu  Na Miaka Tisa Kando Yako Ukinitoa Uovu  CHORUS  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  Verse 2  Uuu Utovu Wa Nidhamu Ndani Yangu Ukaupiga  Na Ndoto Za Utotoni Ukanipa Motisha  (Mama)  Utovu Wa Nidhamu Ndani Yangu Ukaupiga  Na Ndoto Za Utotoni Ukanipa Motisha  Mwanangu Unaweza Lolote Ukijikaza utafika popote  Mwana, Unaweza Lolote Maono Mengi Ulifanya Niote  Mwanangu Unaweza Lolote Ukijikaza utafika popote  Mwana Unaweza Lolote Maono Mengi Ulifanya Niote  Chorus  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  Verse 3  Ulijinyima Nipate Wee, Hukutaka Nikose ee  Ulijinyima Nipate Wee, Hukutaka Nikose ee  Ulijinyima Nipate (Mama), Hukutaka Nikose ee  Ulijinyima Nipate (Mama), Hukutaka Nikose  Chorus  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  Maana Kubwa Kwangu Mummy Ndio Nakuimbia Mama  Zawadi Nono Kwangu Haki Kutoka Kwa Maaulana  "
+                android:id="@+id/textView14"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/yellow" />
         </RelativeLayout>
     </ScrollView>
+
 
 </RelativeLayout>

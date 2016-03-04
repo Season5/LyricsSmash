@@ -8,15 +8,28 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.scurrae.chris.lyricssmash.Left"
-    android:background="@color/yellow">
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="To the left, to the left To the left, to the left (mmmmmm) To the left, to the left  Everything you own in the box to the left In the closet that&apos;s my stuff Yes, if I bought it, please don&apos;t touch And keep talking that mess that&apos;s fine But could you walk and talk at the same time And, it&apos;s my name that&apos;s on that jag So come move your bags, let me call you a cab  Standing in the front yard Tellin&apos; me, how I&apos;m such a fool Talkin&apos; &apos;bout, I&apos;ll never ever find a man like you You got me twisted  You must not know about me, you must not know about me I could have another you in a minute Matter of fact, he&apos;ll be here in a minute, baby You must not know about me, you must not know about me I can have another you by tomorrow So don&apos;t you ever for a second get to thinking You&apos;re irreplaceable  So go ahead and get gone Call up that chick and see if she&apos;s home Oops, I bet you thought, that I didn&apos;t know What did you think I was putting you out for Because you was untrue Rollin&apos; her around in the car that I bought you Baby drop them keys Hurry up before your taxi leaves  Standing in the front yard Tellin&apos; me, how I&apos;m such a fool Talkin&apos; bout, I&apos;ll never ever find a man like you You got me twisted  You must not know about me, you must not know about me I could have another you in a minute Matter of fact, he&apos;ll be here in a minute, baby You must not know about me, you must not know about me I can have another you by tomorrow So don&apos;t you ever for a second get to thinking You&apos;re irreplaceable  So since I&apos;m not your everything How about I&apos;ll be nothing Nothing at all to you Baby I won&apos;t shed a tear for you I won&apos;t lose a wink of sleep &apos;Cause the truth of the matter is Replacing you is so easy  To the left, to the left To the left, to the left (mmmmmm) To the left, to the left Everything you own in the box to the left To the left, to the left Don&apos;t you ever for a second get to thinking You&apos;re irreplaceable  You must not know about me, you must not know about me I could have another you in a minute Matter of fact, he&apos;ll be here in a minute, baby You must not know about me, you must not know about me I can have another you by tomorrow So don&apos;t you ever for a second get to thinking (baby) You must not know about me, you must not know about me I could have another you in a minute Matter of fact, he&apos;ll be here in a minute You can pack all your bags We&apos;re finished &apos;Cause you made your bed Now lay in it I can have another you by tomorrow Don&apos;t you ever for a second get to thinking You&apos;re irreplaceable"
+                android:id="@+id/textView16"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/yellow"
+                android:layout_alignParentTop="true" />
 
         </RelativeLayout>
     </ScrollView>
+
+
 
 </RelativeLayout>

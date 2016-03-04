@@ -98,6 +98,7 @@
             android:background="#b0000000"
             android:textColor="@color/yellow"/>
     </LinearLayout>
-            </RelativeLayout>
+
+        </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
