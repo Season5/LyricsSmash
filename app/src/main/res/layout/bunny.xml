@@ -68,32 +68,13 @@
 
         <Button
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="prev"
-            android:id="@+id/bunnyprev"
-            android:background="#b0000000"
-            android:textColor="@color/yellow"
-            android:layout_marginLeft="10dp"/>
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="main"
             android:id="@+id/bunnymain"
             android:background="#b0000000"
-            android:layout_marginLeft="75dp"
-            android:layout_marginRight="75dp"
             android:textColor="@color/yellow"/>
 
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="next"
-            android:id="@+id/button5"
-            android:background="#b0000000"
-            android:textColor="@color/yellow"/>
     </LinearLayout>
             </RelativeLayout>
     </ScrollView>
