@@ -19,7 +19,6 @@ public class PageBunny extends AppCompatActivity {
         TextView b3 = (TextView) findViewById(R.id.bunnystars);
 
         Button b4 = (Button) findViewById(R.id.bunnymain);
-        Button b5 = (Button) findViewById(R.id.bunnyprev);
 
 
         TextView[] text = {b1,b2,b3};
@@ -49,27 +48,15 @@ public class PageBunny extends AppCompatActivity {
             });
         }
 
-        Button[] button = {b4,b5};
-        for (Button aButton : button) {
-            aButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    switch (v.getId()) {
-                        case R.id.bunnymain:
-                            Intent i = new Intent(getBaseContext(), Main.class);
-                            startActivity(i);
-                            break;
-                        case R.id.bunnyprev:
-                            Intent j = new Intent(getBaseContext(), Local.class);
-                            startActivity(j);
-                            break;
-                        default:
-                            break;
-                    }
-                }
+        b4.setOnClickListener(new View.OnClickListener() {
+                                  @Override
+                                  public void onClick(View v) {
+                                      Intent i = new Intent(getBaseContext(), Main.class);
+                                      startActivity(i);
+                                  }
+                              }
 
 
-            });
-        }
+        );
     }
 }

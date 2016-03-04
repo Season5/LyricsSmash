@@ -19,7 +19,6 @@ public class PageBey extends AppCompatActivity {
         TextView b3 = (TextView) findViewById(R.id.beysingle);
 
         Button b4 = (Button) findViewById(R.id.beymain);
-        Button b5 = (Button) findViewById(R.id.beyprev);
 
 
         TextView[] text = {b1,b2,b3};
@@ -49,27 +48,16 @@ public class PageBey extends AppCompatActivity {
             });
         }
 
-        Button[] button = {b4,b5};
-        for (Button aButton : button) {
-            aButton.setOnClickListener(new View.OnClickListener() {
+        b4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    switch (v.getId()) {
-                        case R.id.beymain:
-                            Intent i = new Intent(getBaseContext(), Main.class);
-                            startActivity(i);
-                            break;
-                        case R.id.beyprev:
-                            Intent j = new Intent(getBaseContext(), Int.class);
-                            startActivity(j);
-                            break;
-                        default:
-                            break;
+                    Intent i = new Intent(getBaseContext(), Main.class);
+                    startActivity(i);
                     }
                 }
 
 
-            });
+            );
         }
-    }
+
 }

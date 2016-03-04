@@ -19,7 +19,6 @@ public class PageBahati extends AppCompatActivity {
         TextView b3 = (TextView) findViewById(R.id.bahamum);
 
         Button b4 = (Button) findViewById(R.id.bahamain);
-        Button b5 = (Button) findViewById(R.id.bahaprev);
 
 
         TextView[] text = {b1,b2,b3};
@@ -49,27 +48,15 @@ public class PageBahati extends AppCompatActivity {
             });
         }
 
-        Button[] button = {b4,b5};
-        for (Button aButton : button) {
-            aButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    switch (v.getId()) {
-                        case R.id.bahamain:
-                            Intent i = new Intent(getBaseContext(), Main.class);
-                            startActivity(i);
-                            break;
-                        case R.id.bahaprev:
-                            Intent j = new Intent(getBaseContext(), Local.class);
-                            startActivity(j);
-                            break;
-                        default:
-                            break;
-                    }
-                }
+        b4.setOnClickListener(new View.OnClickListener() {
+                                  @Override
+                                  public void onClick(View v) {
+                                      Intent i = new Intent(getBaseContext(), Main.class);
+                                      startActivity(i);
+                                  }
+                              }
 
 
-            });
-        }
+        );
     }
 }

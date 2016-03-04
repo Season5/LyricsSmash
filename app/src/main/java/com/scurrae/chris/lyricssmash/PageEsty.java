@@ -19,7 +19,6 @@ public class PageEsty extends AppCompatActivity {
         TextView b3 = (TextView) findViewById(R.id.estyfura);
 
         Button b4 = (Button) findViewById(R.id.estymain);
-        Button b5 = (Button) findViewById(R.id.estyprev);
 
 
         TextView[] text = {b1,b2,b3};
@@ -49,27 +48,15 @@ public class PageEsty extends AppCompatActivity {
             });
         }
 
-        Button[] button = {b4,b5};
-        for (Button aButton : button) {
-            aButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    switch (v.getId()) {
-                        case R.id.estymain:
-                            Intent i = new Intent(getBaseContext(), Main.class);
-                            startActivity(i);
-                            break;
-                        case R.id.estyprev:
-                            Intent j = new Intent(getBaseContext(), Local.class);
-                            startActivity(j);
-                            break;
-                        default:
-                            break;
-                    }
-                }
+        b4.setOnClickListener(new View.OnClickListener() {
+                                  @Override
+                                  public void onClick(View v) {
+                                      Intent i = new Intent(getBaseContext(), Main.class);
+                                      startActivity(i);
+                                  }
+                              }
 
 
-            });
-        }
+        );
     }
 }

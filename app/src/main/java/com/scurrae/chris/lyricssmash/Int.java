@@ -18,8 +18,8 @@ public class Int extends AppCompatActivity {
         TextView b2 = (TextView) findViewById(R.id.itrjay);
         TextView b3 = (TextView) findViewById(R.id.itrkirk);
 
-        Button b4 = (Button) findViewById(R.id.itrprev);
-        Button b5 = (Button) findViewById(R.id.itrmain);
+
+        Button b4 = (Button) findViewById(R.id.itrmain);
 
 
         TextView[] text = {b1,b2,b3};
@@ -49,27 +49,15 @@ public class Int extends AppCompatActivity {
             });
         }
 
-        Button[] button = {b4,b5};
-        for (Button aButton : button) {
-            aButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    switch (v.getId()) {
-                        case R.id.itrprev:
-                            Intent i = new Intent(getBaseContext(), Main.class);
-                            startActivity(i);
-                            break;
-                        case R.id.itrmain:
-                            Intent j = new Intent(getBaseContext(), Main.class);
-                            startActivity(j);
-                            break;
-                        default:
-                            break;
-                    }
-                }
+        b4.setOnClickListener(new View.OnClickListener() {
+                                  @Override
+                                  public void onClick(View v) {
+                                      Intent i = new Intent(getBaseContext(), Main.class);
+                                      startActivity(i);
+                                  }
+                              }
 
 
-            });
-        }
+        );
     }
 }

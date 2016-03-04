@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="main"
-            android:id="@+id/bunnymain"
+            android:id="@+id/bahamain"
             android:background="#b0000000"
             android:textColor="@color/yellow"/>
     </LinearLayout>

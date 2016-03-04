@@ -19,7 +19,6 @@ public class PageKirk extends AppCompatActivity {
         TextView b3 = (TextView) findViewById(R.id.kirktoday);
 
         Button b4 = (Button) findViewById(R.id.kirkmain);
-        Button b5 = (Button) findViewById(R.id.kirkprev);
 
 
         TextView[] text = {b1,b2,b3};
@@ -49,27 +48,15 @@ public class PageKirk extends AppCompatActivity {
             });
         }
 
-        Button[] button = {b4,b5};
-        for (Button aButton : button) {
-            aButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    switch (v.getId()) {
-                        case R.id.kirkmain:
-                            Intent i = new Intent(getBaseContext(), Main.class);
-                            startActivity(i);
-                            break;
-                        case R.id.kirkprev:
-                            Intent j = new Intent(getBaseContext(), Int.class);
-                            startActivity(j);
-                            break;
-                        default:
-                            break;
-                    }
-                }
+        b4.setOnClickListener(new View.OnClickListener() {
+                                  @Override
+                                  public void onClick(View v) {
+                                      Intent i = new Intent(getBaseContext(), Main.class);
+                                      startActivity(i);
+                                  }
+                              }
 
 
-            });
-        }
+        );
     }
 }
