@@ -71,7 +71,7 @@
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="main"
+            android:text="HOME"
             android:id="@+id/itrmain"
             android:background="#b0000000"
             android:textColor="@color/yellow"/>

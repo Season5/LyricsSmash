@@ -18,7 +18,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Rabbit"
         android:id="@+id/textView8"
-        android:textSize="50dp"
+        android:textSize="40dp"
         android:layout_marginTop="41dp"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true" />
@@ -33,7 +33,7 @@
         android:layout_alignStart="@+id/textView8"
         android:layout_marginTop="54dp"
         android:checked="false"
-        android:textSize="40dp" />
+        android:textSize="30sp" />
 
     <RadioButton
         android:layout_width="wrap_content"
@@ -45,20 +45,10 @@
         android:layout_alignStart="@+id/bunnyadisia"
         android:layout_marginTop="50dp"
         android:checked="false"
-        android:textSize="40dp" />
-
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="staki kukuona"
-        android:id="@+id/bunnystars"
-        android:textSize="40dp"
-        android:layout_below="@+id/bunnyligi"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:textSize="30sp" />
 
 
-    <LinearLayout
+            <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -70,7 +60,7 @@
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="main"
+            android:text="HOME"
             android:id="@+id/bunnymain"
             android:background="#b0000000"
             android:textColor="@color/yellow"/>
@@ -78,4 +68,14 @@
     </LinearLayout>
             </RelativeLayout>
     </ScrollView>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="staki kukuona"
+        android:id="@+id/bunnystars"
+        android:textSize="30sp"
+        android:layout_marginBottom="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

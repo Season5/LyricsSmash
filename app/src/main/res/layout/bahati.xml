@@ -20,7 +20,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Bahati"
         android:id="@+id/textView8"
-        android:textSize="50dp"
+        android:textSize="40sp"
         android:layout_marginTop="52dp"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true" />
@@ -35,7 +35,7 @@
         android:layout_alignStart="@+id/textView8"
         android:layout_marginTop="54dp"
         android:checked="false"
-        android:textSize="40dp" />
+        android:textSize="30sp" />
 
     <RadioButton
         android:layout_width="wrap_content"
@@ -44,7 +44,7 @@
         android:id="@+id/bahalove"
         android:layout_marginTop="39dp"
         android:checked="false"
-        android:textSize="40dp"
+        android:textSize="30sp"
         android:layout_below="@+id/bahamacho"
         android:layout_alignLeft="@+id/bahamacho"
         android:layout_alignStart="@+id/bahamacho" />
@@ -58,7 +58,7 @@
         android:layout_alignLeft="@+id/bahalove"
         android:layout_alignStart="@+id/bahalove"
         android:layout_marginTop="54dp"
-        android:textSize="40dp" />
+        android:textSize="30sp" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -72,7 +72,7 @@
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="main"
+            android:text="HOME"
             android:id="@+id/bahamain"
             android:background="#b0000000"
             android:textColor="@color/yellow"/>

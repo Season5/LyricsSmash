@@ -8,27 +8,27 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.scurrae.chris.lyricssmash.Dawa"
-    android:background="@color/yellow">
+    android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Chorus Kuna dawa, Kuna dawa x4 Verse 1: Nayatangazia Mataifa Kuna dawa na waipokee Dawa ni Kumpokea Yesu Oh Kuna dawa (Chorus) Verse 2: Pokea dawa bila malipo Yaponya roho na pia mwili Yaondoa dhiki na laana Oh, kuna dawa (Chorus) Verse 3: Nawasihi wote mnywe dawa Wazee kwa vijana tunywe dawa Watoto pia wapewe dawa Oh, kuna dawa "
-        android:id="@+id/textView9"
-        android:overScrollMode="always"
-        android:textSize="25dp"
-        android:textIsSelectable="false"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Chorus Kuna dawa, Kuna dawa x4 Verse 1: Nayatangazia Mataifa Kuna dawa na waipokee Dawa ni Kumpokea Yesu Oh Kuna dawa (Chorus) Verse 2: Pokea dawa bila malipo Yaponya roho na pia mwili Yaondoa dhiki na laana Oh, kuna dawa (Chorus) Verse 3: Nawasihi wote mnywe dawa Wazee kwa vijana tunywe dawa Watoto pia wapewe dawa Oh, kuna dawa "
+                android:id="@+id/textView9"
+                android:overScrollMode="always"
+                android:textSize="25dp"
+                android:textIsSelectable="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/yellow" />
 
         </RelativeLayout>
     </ScrollView>
