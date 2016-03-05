@@ -21,7 +21,6 @@
         android:text="Bahati"
         android:id="@+id/textView8"
         android:textSize="40sp"
-        android:layout_marginTop="52dp"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true" />
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#fbffe602">
+    android:background="#e9f7ff01">
 
 
     <TextView
@@ -10,10 +10,12 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="LYRICS"
         android:id="@+id/textView"
-        android:textSize="50sp"
+        android:textSize="70sp"
+        android:textStyle="bold"
         android:layout_above="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="38dp" />
+        android:layout_marginBottom="38dp"
+        android:textColor="@color/black" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,19 +23,19 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="SMASH"
         android:id="@+id/textView2"
-        android:textSize= "50sp"
+        android:textSize= "70sp"
         android:textStyle="bold"
         android:layout_marginTop="38dp"
         android:layout_below="@+id/imageView"
         android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        android:layout_alignStart="@+id/textView"
+        android:textColor="@color/black" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:src="@drawable/fist"
-        android:background="@color/yellow"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

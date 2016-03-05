@@ -20,13 +20,39 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Large Ooh Bahati Bahati tena Maachozi machozi ii, machozi mamaye Machozi skiza papaye Vidonda vichungu na fikra ona vile niliumia Machozi machungu nakuta mbona hakuna vile ningeficha *2 Maisha yangu ya usali, kasoro mali Wapi wangu waniokoe, napoteza mzazi uchungu wa mwana, Mbona mola uniondoe *2 Nilikosa hata moyo kuchonga moyoni, niliumia sana Maskini kusema hawachoki kuchonga nililia msee iaa Nilijawa machozi, mbona mimi Maswali kwa mola, mbona mimi Nilijawa machozi, mbona mimi Mbona dunia uchungu, mbona mimi oooi oooi oooi oooi oooi oooi oooi oooi Nafanya napata gharama, kuwa inakera Bidii nikaweka nikaangua pa tupu, niliota kupenya Mziki ilifanya sana napata gharama, kuwa inakera Bidii nikaweka nikaangua pa tupu, niliota kupenya Ilikuwa uchungu madungu zangu, Nilijawa naumia aai ilikuwa machozi sina hata pozi, ila tumbo inalia aai *2 Nilijawa machozi, mbona mimi Maswali kuwa mola, mbona mimi Nilijawa machozi, mbona mimi Mbona dunia uchungu, mbona mimi oooi oooi oooi oooi oooi oooi oooi oooi Naye ukaniweka chini, niende wapi mwenzio Niliangaika kwenda mjini, mashambani hivo hivo *2 Ukawamu kunionyesha mapenzi, hapo siku ya kwanza Maulana kwangu ukakuwa mpenzi, ndio ukaniacha *2 Nilikosa hata moyoni, niliumia sana Maskini kusema hawachoki kuchonga, nililia msee aai Nilijawa machozi, mbona Maswali kwa mola, mbona Nilijawa machozi, mbona mimi Mbona dunia uchunga, mbona mimi mbona mimi, mbona mimi Si amini ni mimi leo, Maulana hayali mbivu oooh Si amini ni mimi leo, Rabuka hafungi sikio *2"
+                android:text="Ooh Bahati Bahati tena\n Maachozi machozi ii, machozi mamaye\n Machozi skiza papaye\n Vidonda vichungu na fikra ona\n vile niliumia\n Machozi machungu nakuta mbona\n hakuna vile ningeficha *2\n Maisha yangu ya usali,\n kasoro mali\n Wapi wangu waniokoe,\n napoteza mzazi uchungu wa mwana,\n Mbona mola uniondoe *2\n Nilikosa hata moyo kuchonga moyoni,\n niliumia sana\n Maskini kusema hawachoki\n kuchonga nililia msee iaa\n Nilijawa machozi,\n mbona mimi\n Maswali kwa mola,\n mbona mimi\n Nilijawa machozi,\n mbona mimi\n Mbona dunia uchungu,\n mbona mimi\n oooi oooi oooi oooi\n oooi oooi oooi oooi\n Nafanya napata gharama,\n kuwa inakera\n Bidii nikaweka nikaangua pa tupu,\n niliota kupenya\n Mziki ilifanya sana napata gharama,\n kuwa inakera\n Bidii nikaweka nikaangua pa tupu,\n niliota kupenya\n Ilikuwa uchungu madungu zangu,\n Nilijawa naumia aai\n ilikuwa machozi sina hata pozi,\n ila tumbo inalia aai *2\n Nilijawa machozi,\n mbona mimi\n Maswali kuwa mola,\n mbona mimi\n Nilijawa machozi,\n mbona mimi\n Mbona dunia uchungu,\n mbona mimi\n oooi oooi oooi oooi\n oooi oooi oooi oooi\n Naye ukaniweka chini,\n niende wapi mwenzio\n Niliangaika kwenda mjini,\n mashambani hivo hivo *2\n Ukawamu kunionyesha mapenzi,\n hapo siku ya kwanza\n Maulana kwangu ukakuwa mpenzi,\n ndio ukaniacha *2\n Nilikosa hata moyoni,\n niliumia sana\n Maskini kusema hawachoki kuchonga,\n nililia msee aai\n Nilijawa machozi,\n mbona\n Maswali kwa mola,\n mbona\n Nilijawa machozi,\n mbona mimi\n Mbona dunia uchunga,\n mbona mimi\n mbona mimi, mbona mimi\n Si amini ni mimi leo,\n Maulana hayali mbivu oooh\n Si amini ni mimi leo,\n Rabuka hafungi sikio *2\n"
                 android:id="@+id/textView11"
+                android:textColor="@color/yellow"
+                android:layout_below="@+id/textView27"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:textColor="@color/yellow"
-                android:layout_alignParentTop="true" />
+                android:layout_marginTop="40sp"
+                android:textAlignment="center"
+                android:padding="20dp"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Bahati"
+                android:id="@+id/textView26"
+                android:textColor="@color/yellow"
+                android:textSize="45sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="machozi"
+                android:id="@+id/textView27"
+                android:textStyle="italic"
+                android:textSize="35sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/textView26"
+                android:layout_centerHorizontal="true" />
 
         </RelativeLayout>
     </ScrollView>
