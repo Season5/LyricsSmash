@@ -7,39 +7,35 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.scurrae.chris.lyricssmash.Dawa"
+    tools:context="com.scurrae.chris.lyricssmash.Daktari"
     android:background="@color/black">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView10">
+        android:id="@+id/scrollView">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Chorus Kuna dawa, Kuna dawa  x4\n\n Verse 1:\n Nayatangazia Mataifa\n Kuna dawa na waipokee\n Dawa ni Kumpokea Yesu\n Oh Kuna dawa\n (repeat)\n\n (Chorus)\n\n Verse 2:\n Pokea dawa bila malipo\n Yaponya roho na pia mwili\n Yaondoa dhiki na laana\n Oh, kuna dawa\n (repeat)\n\n (Chorus)\n\n Verse 3:\n Nawasihi wote mnywe dawa\n Wazee kwa vijana tunywe dawa\n Watoto pia wapewe dawa\n Oh, kuna dawa\n (repeat)\n (Chorus)\n  References https://africangospellyrics.wordpress.com/2011/02/22/kuna-dawa-lyrics-by-esther-wahome-with-english-translation/  "
-                android:id="@+id/textView9"
-                android:overScrollMode="always"
-                android:textSize="25dp"
-                android:textIsSelectable="false"
+                android:text="Sioshwi dhambi zangu,\n bila damu yake\n  Nahitaji kabisa, \ndawa ya makosa yangu\n  Ndiposa nakimbia pale msalabani \n Haya initakase, damu ya mkombozi \n \nDamu, damu, damu ya\n mkombozi damu \n Damu, damu, damu ya mkombozi damu \n Sipati patanishwa, bila damu yake\n Hukumu yanitisha, ila hiyo damu \n Ndipo namlilia, aliye mwaga damu \n Sasa initakase, damu ya mkombozi  \nDamu, damu, damu ya mkombozi damu\n  Damu, damu, damu ya mkombozi damu  \nSipati tumaini, bila damu yake \n wema wala amani, pia na usalama \n Ndipo namtazama, huyu mwana kondoo\n  Ili initakase, damu ya mkombozi \n Damu, damu, damu ya mkombozi damu \n Damu, damu, damu ya mkombozi damu \n"
+                android:id="@+id/textView12"
                 android:textColor="@color/yellow"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:textAlignment="center"
-                android:layout_marginTop="143dp" />
+                android:layout_marginTop="139dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Esther "
-                android:id="@+id/textView32"
+                android:text="Esther"
+                android:id="@+id/textView30"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:textColor="@color/yellow"
@@ -49,13 +45,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="kuna dawa"
-                android:id="@+id/textView33"
-                android:layout_below="@+id/textView32"
+                android:text="damu"
+                android:id="@+id/textView31"
+                android:layout_below="@+id/textView30"
                 android:layout_centerHorizontal="true"
-                android:textSize="30sp"
+                android:textStyle="italic"
                 android:textColor="@color/white"
-                android:textStyle="italic"/>
+                android:textSize="30sp" />
 
         </RelativeLayout>
     </ScrollView>

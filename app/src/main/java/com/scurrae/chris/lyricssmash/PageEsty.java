@@ -36,7 +36,7 @@ public class PageEsty extends AppCompatActivity {
                             startActivity(j);
                             break;
                         case R.id.estyfura:
-                            Intent k = new Intent(getBaseContext(), Furahia.class);
+                            Intent k = new Intent(getBaseContext(), Damu.class);
                             startActivity(k);
                             break;
                         default:
