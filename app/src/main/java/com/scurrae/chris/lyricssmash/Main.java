@@ -12,6 +12,7 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        startService(new Intent(getBaseContext(), HelloService.class));
         Button b1 = (Button) findViewById(R.id.button);
         Button b2 = (Button) findViewById(R.id.button2);
 
@@ -37,5 +38,10 @@ public class Main extends AppCompatActivity {
 
             });
         }
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
     }
 }

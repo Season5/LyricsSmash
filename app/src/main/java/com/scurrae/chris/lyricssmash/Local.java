@@ -23,6 +23,7 @@ public class Local extends AppCompatActivity{
 
         ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.listview, localArtists);
 
+
         final ListView listView = (ListView)findViewById(R.id.ListView);
         listView.setAdapter(adapter);
 
@@ -93,5 +94,10 @@ public class Local extends AppCompatActivity{
 
 
 //        );
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
     }
 }

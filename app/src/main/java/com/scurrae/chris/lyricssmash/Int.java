@@ -16,6 +16,7 @@ public class Int extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.local);
 
         ArrayAdapter adapterer = new ArrayAdapter<String>(this, R.layout.listview, internationalArtists);
@@ -36,9 +37,11 @@ public class Int extends AppCompatActivity {
                 } else if (sText.equals("Kirk Franklin")) {
                     Intent m = new Intent(getBaseContext(), PageKirk.class);
                     startActivity(m);
-                }
+        setContentView(R.layout.inter);
+        stopService(new Intent(getBaseContext(), HelloService.class));
 
             }
-        });
+        }
+                });
     }
 }
