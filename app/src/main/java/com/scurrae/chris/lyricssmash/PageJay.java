@@ -1,69 +1,44 @@
 package com.scurrae.chris.lyricssmash;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.Handler;
-import android.view.MotionEvent;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 
-/**
- * An example full-screen activity that shows and hides the system UI (i.e.
- * status bar and navigation/system bar) with user interaction.
- */
 public class PageJay extends AppCompatActivity {
+    String[] jaySongs = {"Dead President", "Empire state of mind", "Song cry"};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.jay);
-        TextView b1 = (TextView) findViewById(R.id.jaycry);
-        TextView b2 = (TextView) findViewById(R.id.jaydeath);
-        TextView b3 = (TextView) findViewById(R.id.jayempire);
+        setContentView(R.layout.local);
 
+        ArrayAdapter adet = new ArrayAdapter<String>(this, R.layout.listview, jaySongs);
 
-        Button b4 = (Button) findViewById(R.id.jaymain);
+        final ListView listView = (ListView) findViewById(R.id.ListView);
+        listView.setAdapter(adet);
 
-
-        TextView[] text = {b1,b2,b3};
-        for (TextView aButton : text) {
-            aButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    switch (v.getId()) {
-                        case R.id.jaycry:
-                            Intent i = new Intent(getBaseContext(), Song.class);
-                            startActivity(i);
-                            break;
-                        case R.id.jaydeath:
-                            Intent j = new Intent(getBaseContext(), Dead.class);
-                            startActivity(j);
-                            break;
-                        case R.id.jayempire:
-                            Intent k = new Intent(getBaseContext(), Empire.class);
-                            startActivity(k);
-                            break;
-                        default:
-                            break;
-                    }
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String sText = ((TextView) view).getText().toString();
+                if (sText.equals("Dead President")) {
+                    Intent m = new Intent(getBaseContext(), Dead.class);
+                    startActivity(m);
+                } else if (sText.equals("Empire state of mind")) {
+                    Intent n = new Intent(getBaseContext(), Empire.class);
+                    startActivity(n);
+                } else if (sText.equals("Song cry")) {
+                    Intent o = new Intent(getBaseContext(), Song.class);
+                    startActivity(o);
                 }
 
-
-            });
-        }
-
-        b4.setOnClickListener(new View.OnClickListener() {
-                                  @Override
-                                  public void onClick(View v) {
-                                      Intent i = new Intent(getBaseContext(), Main.class);
-                                      startActivity(i);
-                                  }
-                              }
-
-
-        );
+            }
+        });
     }
 }

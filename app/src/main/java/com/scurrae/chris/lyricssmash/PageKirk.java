@@ -4,59 +4,42 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class PageKirk extends AppCompatActivity {
+    String[] kirkSongs = {"Smile", "Hosanna", "Today"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kirk);
+        setContentView(R.layout.local);
 
-        TextView b1 = (TextView) findViewById(R.id.kirkhose);
-        TextView b2 = (TextView) findViewById(R.id.kirksmilo);
-        TextView b3 = (TextView) findViewById(R.id.kirktoday);
+        ArrayAdapter aet = new ArrayAdapter<String>(this, R.layout.listview, kirkSongs);
 
-        Button b4 = (Button) findViewById(R.id.kirkmain);
+        final ListView listView = (ListView) findViewById(R.id.ListView);
+        listView.setAdapter(aet);
 
-
-        TextView[] text = {b1,b2,b3};
-        for (TextView aButton : text) {
-            aButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    switch (v.getId()) {
-                        case R.id.kirkhose:
-                            Intent i = new Intent(getBaseContext(), Hosanna.class);
-                            startActivity(i);
-                            break;
-                        case R.id.kirksmilo:
-                            Intent j = new Intent(getBaseContext(), Smile.class);
-                            startActivity(j);
-                            break;
-                        case R.id.kirktoday:
-                            Intent k = new Intent(getBaseContext(), Today.class);
-                            startActivity(k);
-                            break;
-                        default:
-                            break;
-                    }
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String sText = ((TextView) view).getText().toString();
+                if (sText.equals("Smile")) {
+                    Intent p = new Intent(getBaseContext(), Smile.class);
+                    startActivity(p);
+                } else if (sText.equals("Hosanna")) {
+                    Intent q = new Intent(getBaseContext(), Hosanna.class);
+                    startActivity(q);
+                } else if (sText.equals("Today")) {
+                    Intent r = new Intent(getBaseContext(), Today.class);
+                    startActivity(r);
                 }
 
-
-            });
-        }
-
-        b4.setOnClickListener(new View.OnClickListener() {
-                                  @Override
-                                  public void onClick(View v) {
-                                      Intent i = new Intent(getBaseContext(), Main.class);
-                                      startActivity(i);
-                                  }
-                              }
-
-
-        );
+            }
+        });
     }
 }

@@ -4,60 +4,41 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class Int extends AppCompatActivity {
+    String[] internationalArtists = {"Beyonce", "Jay-z", "Kirk Franklin"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inter);
+        setContentView(R.layout.local);
 
-        TextView b1 = (TextView) findViewById(R.id.itrbey);
-        TextView b2 = (TextView) findViewById(R.id.itrjay);
-        TextView b3 = (TextView) findViewById(R.id.itrkirk);
+        ArrayAdapter adapterer = new ArrayAdapter<String>(this, R.layout.listview, internationalArtists);
 
+        final ListView listView = (ListView) findViewById(R.id.ListView);
+        listView.setAdapter(adapterer);
 
-        Button b4 = (Button) findViewById(R.id.itrmain);
-
-
-        TextView[] text = {b1,b2,b3};
-        for (TextView aButton : text) {
-            aButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    switch (v.getId()) {
-                        case R.id.itrbey:
-                            Intent i = new Intent(getBaseContext(), PageBey.class);
-                            startActivity(i);
-                            break;
-                        case R.id.itrjay:
-                            Intent j = new Intent(getBaseContext(), PageJay.class);
-                            startActivity(j);
-                            break;
-                        case R.id.itrkirk:
-                            Intent k = new Intent(getBaseContext(), PageKirk.class);
-                            startActivity(k);
-                            break;
-                        default:
-                            break;
-                    }
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String sText = ((TextView) view).getText().toString();
+                if (sText.equals("Beyonce")) {
+                    Intent y = new Intent(getBaseContext(), PageBey.class);
+                    startActivity(y);
+                } else if (sText.equals("Jay-z")) {
+                    Intent u = new Intent(getBaseContext(), PageJay.class);
+                    startActivity(u);
+                } else if (sText.equals("Kirk Franklin")) {
+                    Intent m = new Intent(getBaseContext(), PageKirk.class);
+                    startActivity(m);
                 }
 
-
-            });
-        }
-
-        b4.setOnClickListener(new View.OnClickListener() {
-                                  @Override
-                                  public void onClick(View v) {
-                                      Intent i = new Intent(getBaseContext(), Main.class);
-                                      startActivity(i);
-                                  }
-                              }
-
-
-        );
+            }
+        });
     }
 }
