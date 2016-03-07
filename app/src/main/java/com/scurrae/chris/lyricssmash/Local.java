@@ -16,6 +16,8 @@ public class Local extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.local);
 
+        stopService(new Intent(getBaseContext(), HelloService.class));
+
         TextView b1 = (TextView) findViewById(R.id.lclesty);
         TextView b2 = (TextView) findViewById(R.id.lclbaha);
         TextView b3 = (TextView) findViewById(R.id.lclbunny);
@@ -61,5 +63,10 @@ public class Local extends AppCompatActivity{
 
 
         );
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
     }
 }

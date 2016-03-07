@@ -14,6 +14,8 @@ public class Int extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.inter);
 
+        stopService(new Intent(getBaseContext(), HelloService.class));
+
         TextView b1 = (TextView) findViewById(R.id.itrbey);
         TextView b2 = (TextView) findViewById(R.id.itrjay);
         TextView b3 = (TextView) findViewById(R.id.itrkirk);
@@ -59,5 +61,10 @@ public class Int extends AppCompatActivity {
 
 
         );
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
     }
 }
